@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ExamenService {
-  private apiUrl = 'https://neurohealth-backend-deploy-baguceg4gbe4d4ac.canadacentral-01.azurewebsites.net//examen';
+  private apiUrl = 'https://neurohealth-backend-deploy-baguceg4gbe4d4ac.canadacentral-01.azurewebsites.net/examen';
 
   constructor(private http: HttpClient) {}
 

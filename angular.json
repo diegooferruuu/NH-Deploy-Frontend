@@ -81,6 +81,26 @@
           },
           "defaultConfiguration": "development"
         },
+        "prerender": {
+          "builder": "@angular-devkit/build-angular:prerender",
+          "options": {
+            "browserTarget": "neuro-health:build:production",
+            "serverTarget": "neuro-health:server:production",
+            "routes": [
+              "/",
+              "/login",
+              "/signup",
+              "/home",
+              "/resources",
+              "/bigfive",
+              "/community",  
+              "/community/new",
+              "/meditations",
+              "/appointments",
+              "/historials"
+            ]
+          }
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },

@@ -1,0 +1,15 @@
+{
+  "routes": {
+    "/": {},
+    "/appointments": {},
+    "/bigfive": {},
+    "/community": {},
+    "/community/new": {},
+    "/historials": {},
+    "/home": {},
+    "/login": {},
+    "/meditations": {},
+    "/resources": {},
+    "/signup": {}
+  }
+}

@@ -15,7 +15,7 @@ interface Especialista {
   providedIn: 'root'
 })
 export class EspecialistaService {
-  private apiUrl = 'https://neurohealth-backend-deploy-baguceg4gbe4d4ac.canadacentral-01.azurewebsites.net//api/especialistas';
+  private apiUrl = 'https://neurohealth-backend-deploy-baguceg4gbe4d4ac.canadacentral-01.azurewebsites.net/api/especialistas';
 
   constructor(private http: HttpClient) {}
 
